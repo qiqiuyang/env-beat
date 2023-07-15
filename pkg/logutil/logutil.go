@@ -8,7 +8,7 @@ import (
 var (
 	logutil      logger.LoggerService
 	suffixLogger = "DEFAULT"
-	logName      = "default.log"
+	logName      = "env-beat.log"
 )
 
 func init() {
